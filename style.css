@@ -1,16 +1,32 @@
+/* Reset Style */
+
 *{
     margin: 0;
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
+img{
+  max-width: 100%;
+}
 .common-btn{
   background-color: #FD6E0A;
-  padding: 20px 10px;
+  padding: 13px 3px;
   border-radius: 15px;
   font-weight: bold;
   font-size: 22px;
   color: aliceblue;
   border: none;
+  cursor: pointer;
+}
+.outline-btn{
+  background-color: #ffffff;
+  padding: 13px 3px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 22px;
+  color: #FD6E0A;
+  border: 1px solid ;
+  cursor: pointer;
 }
 .container{
 max-width: 1200px;
@@ -46,10 +62,14 @@ ul li a{
 }
 
 /* Hero Section style */
+.hero-parent-root{
+  background-color: #fff8f3;
+}
 .hero-parant{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 .hero-left-p-1{
    font-size:28px;
@@ -59,4 +79,9 @@ ul li a{
 .hero-left h2{
   font-weight: bold;
   font-size: 40px;
+  margin-bottom: 12px;
+}
+.hero-left-btn-parent{
+  margin-top: 12px;
+
 }
